@@ -1,0 +1,53 @@
+{
+  "recipes": {
+  },
+  "conflicting": {
+  },
+  "license": "Apache 2.0",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES: \n\n= USAGE:\n\n",
+  "providing": {
+  },
+  "maintainer": "Opscode, Inc.",
+  "replacing": {
+  },
+  "description": "Installs/Configures nova",
+  "platforms": {
+  },
+  "maintainer_email": "oss@opscode.com",
+  "groupings": {
+  },
+  "attributes": {
+  },
+  "recommendations": {
+  },
+  "dependencies": {
+    "runit": [
+
+    ],
+    "mysql": [
+
+    ],
+    "openssl": [
+
+    ],
+    "apt": [
+
+    ],
+    "python-ldap": [
+
+    ],
+    "openldap": [
+
+    ],
+    "build-essential": [
+
+    ],
+    "rabbitmq": [
+
+    ]
+  },
+  "version": "0.1.0",
+  "name": "nova",
+  "suggestions": {
+  }
+}
