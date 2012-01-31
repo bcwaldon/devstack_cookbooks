@@ -1,0 +1,15 @@
+FORCE=yes
+SHELL_AFTER_RUN=no
+RECLONE=<%= node[:devstack][:reclone] %>
+MYSQL_PASSWORD=<%= node[:devstack][:mysql_password] %>
+RABBIT_PASSWORD=<%= node[:devstack][:rabbit_password] %>
+SERVICE_TOKEN=<%= node[:devstack][:service_token] %>
+ADMIN_PASSWORD=<%= node[:devstack][:admin_password] %>
+HOST_IP=<%= node[:devstack][:host_ip] %>
+INSTANCES_PATH=<%= node[:devstack][:instances_path] %>
+FLAT_INTERFACE=<%= node[:devstack][:flat_interface] %>
+PUBLIC_INTERFACE=<%= node[:devstack][:public_interface] %>
+FIXED_RANGE=<%= node[:devstack][:fixed_range] %>
+FLOATING_RANGE=<%= node[:devstack][:floating_range] %>
+NOVA_REPO=<%= node[:devstack][:nova_repo] %>
+NOVA_BRANCH=<%= node[:devstack][:nova_branch] %>
