@@ -12,7 +12,5 @@ default[:devstack][:flat_interface] = "eth0"
 default[:devstack][:public_interface] = "eth0"
 default[:devstack][:fixed_range] = "10.0.0.0/24"
 default[:devstack][:floating_range] = "172.24.4.224/28"
-default[:devstack][:nova_repo] = "git://github.com/openstack/nova.git"
-default[:devstack][:nova_branch] = "master"
 default[:devstack][:my_ip] = ipaddress
 default[:devstack][:hostname] = "devstack"
