@@ -1,5 +1,6 @@
 default[:devstack][:reclone] = "yes"
 default[:devstack][:repository] = "git://github.com/openstack-dev/devstack.git"
+default[:devstack][:branch] = "master"
 default[:devstack][:admin_password] = "secrete"
 default[:devstack][:mysql_password] = "secrete"
 default[:devstack][:rabbit_password] = "secrete"

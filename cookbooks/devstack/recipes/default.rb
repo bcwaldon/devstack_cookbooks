@@ -30,6 +30,12 @@ execute "git clone #{node[:devstack][:repository]}" do
   not_if { File.directory?("#{node[:devstack][:dir]}/devstack") }
 end
 
+execute "git checkout #{node[:devstack][:branch]}" do
+  cwd "#{node[:devstack][:dir]}/devstack"
+  user node[:devstack][:user]
+  group node[:devstack][:group]
+end
+
 template "#{node[:devstack][:dir]}/devstack/localrc" do
   source "localrc.erb"
   owner node[:devstack][:user]
