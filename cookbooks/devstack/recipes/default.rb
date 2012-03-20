@@ -43,4 +43,6 @@ template "#{node[:devstack][:dir]}/devstack/localrc" do
   mode 0644
 end
 
+execute "killall screen || true"
+
 execute "su -c 'set -e; cd #{node[:devstack][:dir]}/devstack; bash stack.sh > devstack.log' #{node[:devstack][:user]}"
